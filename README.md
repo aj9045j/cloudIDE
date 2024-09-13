@@ -72,7 +72,7 @@ File contents are fetched using the getFileContent API, allowing safe and clean 
 Access the terminal to run shell commands inside the selected container.
 Commands are executed and streamed to the frontend in real time.
 
-##💡 How It Works
+## 💡 How It Works
 Backend: The backend API interfaces with Docker containers using dockerode. It executes commands like cat to read files, and shell commands to update file contents.
 Frontend: The React frontend uses axios to send API requests to the backend. The file tree and Monaco editor are synchronized for editing container files.
 
