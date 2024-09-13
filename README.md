@@ -42,44 +42,44 @@ Make sure you have **Docker** and **Node.js** installed on your machine.
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/cloudIDE.git
-   ```
-2.Install dependencies:
+```bash
+git clone https://github.com/your-username/cloudIDE.git
+```
+2.**Install dependencies**:
 ```bash
   cd client
   npm install
 ```
-3.Run the project:
+3.**Run the project:**
 
 ```bash
 npm run dev
 ```
-4.run Backend
+4.**Run Backend**
 ```bash
 cd server
 npm i
 node index.js
 ```
-Start Docker: Ensure Docker is running and accessible. The app communicates with containers via Dockerode.
+**Start Docker:** Ensure Docker is running and accessible. The app communicates with containers via Dockerode.
 
-🔧 Usage
-File Operations:
+**🔧 Usage*
+File Operations:**
 Navigate to the IDE section to interact with Docker containers.
 You can view file structures and update files in real time.
 File contents are fetched using the getFileContent API, allowing safe and clean read operations from the container.
-Terminal:
+**Terminal:**
 Access the terminal to run shell commands inside the selected container.
 Commands are executed and streamed to the frontend in real time.
 
-💡 How It Works
+**💡 How It Works**
 Backend: The backend API interfaces with Docker containers using dockerode. It executes commands like cat to read files, and shell commands to update file contents.
 Frontend: The React frontend uses axios to send API requests to the backend. The file tree and Monaco editor are synchronized for editing container files.
 
-🌱 Contributing
+**🌱 Contributing**
 Feel free to fork this project and contribute by submitting a pull request. Please follow the contribution guidelines.
 
-🙌 Acknowledgments
+**🙌 Acknowledgments**
 Thanks to the contributors of Dockerode for simplifying container management in Node.js.
 Monaco Editor for providing a smooth, in-browser code editor experience.
 
