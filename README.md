@@ -63,7 +63,7 @@ node index.js
 ```
 **Start Docker:** Ensure Docker is running and accessible. The app communicates with containers via Dockerode.
 
-**🔧 Usage*
+**🔧 Usage
 File Operations:**
 Navigate to the IDE section to interact with Docker containers.
 You can view file structures and update files in real time.
